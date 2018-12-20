@@ -10,4 +10,4 @@
 
 #### 结果
 
-![dependency-tree](https://github.com/imyeego/dependency-tree/blob/master/dependency_tree.png)
+![dependency-tree](https://github.com/imyeego/dependency-tree/blob/master/dependency_tree.png "tree")

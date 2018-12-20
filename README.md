@@ -9,4 +9,4 @@
 - 项目引用了D3库，用于DOM节点的操作。
 
 #### 结果
-[!dependency-tree](https://github.com/imyeego/dependency-tree/blob/master/dependency_tree.png)
+![dependency-tree](https://github.com/imyeego/dependency-tree/blob/master/dependency_tree.png)

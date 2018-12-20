@@ -1,0 +1,183 @@
+[{
+        "id": 0,
+        "word": "剑桥分析公司",
+        "tag": "nt",
+        "dependency": []
+    },
+    {
+        "id": 1,
+        "word": "多",
+        "tag": "a",
+        "dependency": []
+    },
+    {
+        "id": 2,
+        "word": "位",
+        "tag": "q",
+        "dependency": []
+    },
+    {
+        "id": 3,
+        "word": "高管",
+        "tag": "j",
+        "dependency": [{
+                "next": 0,
+                "name": "定中关系"
+            },
+            {
+                "next": 1,
+                "name": "定中关系"
+            },
+            {
+                "next": 2,
+                "name": "定中关系"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "word": "对",
+        "tag": "p",
+        "dependency": [{
+            "next": 6,
+            "name": "介宾关系"
+        }]
+    },
+    {
+        "id": 5,
+        "word": "卧底",
+        "tag": "n",
+        "dependency": []
+    },
+    {
+        "id": 6,
+        "word": "记者",
+        "tag": "n",
+        "dependency": [{
+            "next": 5,
+            "name": "定中关系"
+        }]
+    },
+    {
+        "id": 7,
+        "word": "说",
+        "tag": "v",
+        "dependency": [{
+                "next": 3,
+                "name": "主谓关系"
+            },
+            {
+                "next": 4,
+                "name": "状中结构"
+            },
+            {
+                "next": 8,
+                "name": "标点符号"
+            },
+            {
+                "next": 10,
+                "name": "动宾关系"
+            },
+            {
+                "next": 18,
+                "name": "标点符号"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "word": "，",
+        "tag": "w",
+        "dependency": []
+    },
+    {
+        "id": 9,
+        "word": "他们",
+        "tag": "r",
+        "dependency": []
+    },
+    {
+        "id": 10,
+        "word": "确保",
+        "tag": "v",
+        "dependency": [{
+                "next": 9,
+                "name": "主谓关系"
+            },
+            {
+                "next": 11,
+                "name": "右附加关系"
+            },
+            {
+                "next": 17,
+                "name": "动宾关系"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "word": "了",
+        "tag": "u",
+        "dependency": []
+    },
+    {
+        "id": 12,
+        "word": "唐纳德·特朗普",
+        "tag": "nr",
+        "dependency": []
+    },
+    {
+        "id": 13,
+        "word": "在",
+        "tag": "p",
+        "dependency": [{
+            "next": 16,
+            "name": "介宾关系"
+        }]
+    },
+    {
+        "id": 14,
+        "word": "总统",
+        "tag": "n",
+        "dependency": []
+    },
+    {
+        "id": 15,
+        "word": "大选",
+        "tag": "v",
+        "dependency": [{
+            "next": 14,
+            "name": "定中关系"
+        }]
+    },
+    {
+        "id": 16,
+        "word": "中",
+        "tag": "f",
+        "dependency": [{
+            "next": 15,
+            "name": "定中关系"
+        }]
+    },
+    {
+        "id": 17,
+        "word": "获胜",
+        "tag": "v",
+        "dependency": [{
+                "next": 12,
+                "name": "主谓关系"
+            },
+            {
+                "next": 11,
+                "name": "状中结构"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "word": "。",
+        "tag": "w",
+        "dependency": []
+    }
+
+]

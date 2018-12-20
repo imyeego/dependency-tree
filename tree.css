@@ -1,0 +1,55 @@
+.tree {
+    font-size: 14px;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.word {
+    fill: #555;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-anchor: start;
+}
+
+.tag,
+.dependency {
+    text-anchor: middle;
+    z-index: 10;
+    fill: #ccc;
+}
+
+.tag {
+    fill: #777;
+    font-size: .9em;
+}
+
+.edge,
+.arrow {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5;
+}
+
+.dependency {
+    fill: #ccc;
+    font-size: 9px;
+}
+
+.dependency.active {
+    fill: #3276b1;
+    z-index: 10;
+}
+
+.word.active,
+.edge.active,
+.arrow.active {
+    stroke: #3276b1;
+}
+
+
+/* .word.active,
+.edge.active,
+.arrow.active {
+    stroke: #3276b1;
+} */

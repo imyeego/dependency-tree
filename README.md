@@ -11,22 +11,32 @@
 
 #### json格式
 
-'''
+```javascript
 
 [
+    
     {
+        
         id: 4,
+        
         word: "对",
+        
         tag: "p",
+        
         dependency: [{
+        
             next: 6,
+        
             name: "介宾关系"
+        
         }]
+    
     },
+    
     ...
 ]
 
-'''
+```
 
 
 

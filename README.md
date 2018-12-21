@@ -1,7 +1,5 @@
 ## Dependency Tree Parse
 
----
-
 #### 说明
 
 - 本项目思路来源于[d3-dependency-parse-tree](https://github.com/sobhe/dependency-parse-tree),具体实现和内部绘制算法自己实现。
@@ -14,25 +12,15 @@
 ```javascript
 
 [
-    
     {
-        
         id: 4,
-        
         word: "对",
-        
         tag: "p",
-        
         dependency: [{
-        
             next: 6,
-        
             name: "介宾关系"
-        
         }]
-    
     },
-    
     ...
 ]
 

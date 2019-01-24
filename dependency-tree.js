@@ -153,17 +153,15 @@
             return result;
         }
 
-
-
     };
 
 
     round10 = function(number) {
         if (number % 10 > 5) {
             return number + 10 - number % 10;
-        } else {
-            return number - number % 10;
         }
+        return number - number % 10;
+
     }
 
     measureText = function(el) {
